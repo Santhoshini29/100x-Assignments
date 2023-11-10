@@ -7,7 +7,8 @@
 JS BASICS :
 
 Primitives of js 
-Asynchronus nature 
+
+Asynchronus nature
 Single threaded nature 
 callbacks 
 asycn functions
