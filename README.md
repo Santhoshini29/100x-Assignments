@@ -12,8 +12,8 @@ Asynchronus nature
 
 Single threaded nature 
 
-
-
 callbacks 
+
 asycn functions
+
 Arrow functions 
