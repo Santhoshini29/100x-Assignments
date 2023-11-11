@@ -1,4 +1,10 @@
+function Hello (){
 
+for (var i=0;i<n;i++){
+    console.log ("hello world");
+}
+}
+Hello(12);
 
 
 
