@@ -1,0 +1,4 @@
+function sumAll(startngindex,endingindex){
+
+
+}
