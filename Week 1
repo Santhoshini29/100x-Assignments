@@ -51,3 +51,16 @@ var counter = 0;
 for(var i = 0; i < 3; i++){
     counter = counter + i;
 }
+
+
+
+function getMedicine1(){
+	console.log("1 Received");
+	setTimeout(getMedicine2, 2000);
+}
+
+function getMedicine2(){
+	console.log("2 Received");
+}
+
+setTimeout(getMedicine1, 1000);
