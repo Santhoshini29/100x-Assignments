@@ -1,0 +1,32 @@
+const fetchData = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    const data = { name: "John Doe", age: 25 };
+    resolve(data); }
+  , 2000);
+});
+
+fetchData
+  .then((result) => {
+    console.log("Data fetched:", result);
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
+
+
+
+
+  const fetchData = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const data = { name: "John Doe", age: 25 };
+      resolve(data); }
+    , 2000);
+  });
+  
+  fetchData
+    .then((result) => {
+      console.log("Data fetched:", result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
