@@ -1,2 +1,15 @@
+// Code for stopwatch
 
+<<<<<<< HEAD
 hello
+=======
+var counter = 1;
+
+function printCounter(){
+  console.clear();
+  console.log(counter);
+  counter = counter+1;
+}
+
+setInterval(printCounter, 1000);
+>>>>>>> 223486e64267f37f0fc0cbcd9a6dc231cb1b68f4
