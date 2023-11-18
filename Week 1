@@ -3,6 +3,7 @@
 var userName = "Harkirat" // string
 
 var coursePrice = 5999 // number
+
 var purchased = true // boolean
 var completeUserData = { // Object(key-value pairs)
 	name : "Harkirat"
