@@ -1,0 +1,8 @@
+// basic loging in js
+
+
+var naame = "Santhoshini";
+var age = 20;
+console.log (naame);
+
+console.log(age); 
